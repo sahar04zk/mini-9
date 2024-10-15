@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro';
+}
+.header{
+    height: 70px;
+    background-color: #fff;
+}
+.header .hleft {
+    width: 50%;
+    height: 100%;
+}
+.header .hleft .logo {
+    width: 15%;
+    height: 100%;
+    background-image: url('../image/1712081641500.jpg');
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+.header .hleft .menu {
+    width: 85%;
+    height: 100%;
+}
+.header .hleft .menu ul{
+    list-style-type: none;
+}
+.header .hleft .menu ul li{
+    display: inline-block;
+    padding: 22px 20px;
+}
+.header .hleft .menu ul li:hover{
+    color"#fff";
+    background-color:#04aa6d ;
+}
+
+.html{
+    height: 650px;
+    background-color:#d9eee1 ;
+    text-align: center;
+    padding: 90px;
+}
+.html .containerL{
+    width: 50%;
+    height: 100%;
+    float:left;
+}
+.html .containerL h6{
+    font-weight: bold;
+    font-size: 100px;
+    margin: 15px;
+}
+.html .containerL p{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 15px;
+}
+.html .containerL .btn1{
+    width:190px;
+    height:40px ;
+    background-color:#04aa6d ;
+    color:#000 ;
+    margin:20px auto;
+    line-height: 40px;
+    font-weight: bold;
+    font-size:17px;
+    border-radius: 30px;
+}
+.html .containerL .btn1:hover{
+    background-color:#79bd8b ;
+}
+.html .containerL .btn2{
+     background-color:#fff4a3;
+    width: 190px;
+    margin:20px  auto;
+    border-radius: 30px;
+    color:#000;
+    font-size: 17px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.html .containerL .btn2:hover{
+    background-color:#fff305;
+}
+.html .containerL .btn3{
+    background-color:#282a35;
+    width: 190px;
+    margin:20px  auto;
+    border-radius: 30px;
+    color:#fff;
+    font-size: 17px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.html .containerL .btn3:hover{
+    background-color:#000;
+}
+.html .containerL .btn4{
+   background-color:#ffc0c7;
+    width: 190px;
+    margin:20px  auto;
+    border-radius: 30px;
+    color:#000;
+    font-size: 17px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.html .containerL .btn4:hover{
+    background-color:#f0a5e4;
+}
+.html .containerR{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.html .containerR .right{
+    width: 430px;
+    height:440px;
+    background-color:#e7e9eb;
+    padding: 27px 15px 27px 15px;
+    border-radius: 3px;
+    box-shadow:0 0 4px #88888a;
+}
+.html .containerR .right h1{
+    text-align: left;
+    font-size: 25px;
+    margin-bottom:20px; 
+}
+.html .containerR .right .cod{
+    background-color:#fff ;
+    width:400px ;
+    height: 290px;
+    border-left:5px solid #04aa6d ;
+    text-align: left;
+    padding-left:12px;
+}
+.html .containerR .right  .btn5{
+    background-color:#04aa6d;
+    width: 190px;
+    border-radius: 30px;
+    color:#fff;
+    font-size: 17px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-top: 13px;
+}
+.html .containerR .right .btn5:hover{
+    background-color:#79bd8b ;
+}
